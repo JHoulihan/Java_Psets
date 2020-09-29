@@ -49,7 +49,7 @@ public class SmallestLargest {
         }
 
         //swapping the highest int value with the last position
-        //and the lowest with first position using and temporary locations.
+        //and the lowest with first position using temporary variables.
         int bigTemp = array[size-1];
         array[size-1] = array[bigPos];
         array[bigPos] = bigTemp;
